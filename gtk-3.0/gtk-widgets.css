@@ -2433,8 +2433,9 @@ GtkColorButton.button {
 }
 
 .header-bar GtkComboBox,
-.header-bar .button { 
+.header-bar .button {
     border-width: 1px;
+    box-shadow: none;
     border-top-color: shade(@theme_bg_color, 0.9);
     border-right-color: shade(@theme_bg_color, 0.8);
     border-left-color: shade(@theme_bg_color, 0.8);
@@ -2595,7 +2596,6 @@ GtkStatusbar .button:checked:backdrop,
 }
 
 /* primary toolbar button */
-
 .primary-toolbar GtkComboBox,
 .primary-toolbar .button {
     padding: 4px 8px;
@@ -2604,6 +2604,7 @@ GtkStatusbar .button:checked:backdrop,
     border-radius: 4px;
     background-color: shade(@theme_base_color, 0.95);
     background-image: none;
+    box-shadow: none;
     color: @toolbar_fg_color;
 }
 
