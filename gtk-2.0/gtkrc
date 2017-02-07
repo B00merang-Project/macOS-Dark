@@ -892,3 +892,6 @@ widget "*.tasklist-button"        style "panel_task_button"
 widget "*PanelApplet*TaskTitle*"  style "panel_task_button"
 widget_class "*Xfce*Panel*"	  style "XFCE"
 class "GtkScrollbar"		  style "murrine-scrollbar"
+
+# load panel themes
+include "gnome-panel.rc"
