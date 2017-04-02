@@ -1,4 +1,4 @@
-./* Gedit transparency */
+/* Gedit transparency */
 FeedReaderreaderUI.background.csd > .titlebar > GtkHeaderBar.header-bar.titlebar,
 GeditWindow.background.csd > .titlebar > GtkHeaderBar.header-bar.titlebar {
   background: none;
@@ -33,7 +33,7 @@ NautilusWindow.background.csd {
     background-color: alpha(@titlebar_bg_color, 0.95);
 }
 
-/* make menu transluscent */
+/* make menu transparent (gnome) */
 .csd .popup {
     background: transparent;
 }

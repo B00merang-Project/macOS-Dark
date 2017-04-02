@@ -519,6 +519,7 @@ calendar highlight {
     border-width: 1px 1px 1px 1px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
+    box-shadow: inset 0 -1px shade(@bg_color, 0.7);
 }
 
 /*********
@@ -1511,6 +1512,12 @@ progress row:selected:focus {
                                       );
 }
 
+progressbar:backdrop {
+    border-color: shade(@theme_unfocused_bg_color, 0.85);
+    background-color: shade(@theme_unfocused_bg_color, 0.85);
+    background-image: linear-gradient(to bottom, shade(@theme_unfocused_bg_color, 0.85));
+}
+
  trough,
  trough row,
  trough row:hover,
@@ -2431,8 +2438,8 @@ headerbar button {
     border-bottom-color: shade(@theme_bg_color, 0.75);
     background-image: linear-gradient(to bottom, @theme_base_color);
     background-color: transparent;
-    box-shadow: none;
     color: @titlebar_fg_color;
+    box-shadow: none;
 }
 
 headerbar button:hover {
@@ -2491,6 +2498,7 @@ headerbar button:backdrop {
     border-left-color: shade(@theme_bg_color, 0.85);
     border-bottom-color: shade(@theme_bg_color, 0.75);
     background-image: linear-gradient(to bottom, shade(shade(@theme_bg_color, 0.91), 1.1));
+    box-shadow: inset 0 -1px shade(@bg_color, 0.7);
     color: @theme_unfocused_fg_color;
 }
 
@@ -2592,11 +2600,8 @@ toolbar menubar {
 .primary-toolbar button {
     padding: 4px 8px;
     border-width: 1px;
+    border-color: transparent;
     border-radius: 4px;
-    border-top-color: shade(@theme_bg_color, 0.95);
-    border-right-color: shade(@theme_bg_color, 0.85);
-    border-left-color: shade(@theme_bg_color, 0.85);
-    border-bottom-color: shade(@theme_bg_color, 0.75);
     background-color: shade(@theme_base_color, 1.0);
     background-image: none;
     box-shadow: none;
@@ -2617,6 +2622,14 @@ toolbar button {
     color: @toolbar_fg_color;
 }
 
+toolbar button,
+toolbar button:backdrop {
+    border-color: transparent;
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+
 .primary-toolbar .raised button:backdrop,
 .primary-toolbar .raised button:backdrop,
 toolbar combobox:backdrop,
@@ -2626,6 +2639,7 @@ toolbar button:backdrop {
     border-left-color: shade(@theme_bg_color, 0.85);
     border-bottom-color: shade(@theme_bg_color, 0.75);
     background-image: linear-gradient(to bottom, shade(shade(@theme_bg_color, 0.91), 1.1));
+    box-shadow: inset 0 -1px shade(@bg_color, 0.7);
     color: @theme_unfocused_fg_color;
 }
 
@@ -3912,12 +3926,7 @@ GtkBubbleWindow toolbar {
 .titlebar {
     border-radius: 4px 4px 0 0;
     background-color: transparent;
-    background-image: linear-gradient(to bottom,
-                                      shade(@titlebar_bg_color, 1.03),
-                                      shade(@titlebar_bg_color, 1.01),
-                                      @titlebar_bg_color
-                                      );
-
+    background-image: linear-gradient(to bottom, shade(@titlebar_bg_color, 1.1), shade(@titlebar_bg_color, 0.84));
     color: mix(@titlebar_fg_color, @titlebar_bg_color, 0.1);
     text-shadow: none;
 }
