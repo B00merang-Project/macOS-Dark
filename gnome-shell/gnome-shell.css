@@ -1,4 +1,4 @@
-﻿/*
+/*
 * macOS / OS X El Capitan Shell theme (spinoff from the Windows 10 SHELL theme)
 *
 * Author : Christian Medel (Elbullazul)
@@ -401,7 +401,7 @@ StScrollBar {
 	color: white;
 	min-width: 200px; }
 	.popup-menu .popup-sub-menu {
-		background-color: rgba(250,250,250,0.95);
+		background-color: rgba(0,0,0,0.95);
 		color: white;
 		background-gradient-direction: none;
 		border-width: 0px;
@@ -415,7 +415,7 @@ StScrollBar {
 		.popup-menu .popup-menu-item:rtl {
 			padding: .4em 0em .4em 1.75em; }
 		.popup-menu .popup-menu-item:checked {
-			background-color: rgba(200,200,200,0.95);
+			background-color: rgba(20,20,20,0.95);
 			box-shadow: none;
 			font-weight: normal; }
 		.popup-menu .popup-menu-item:hover, .popup-menu .popup-menu-item:focus {
@@ -443,13 +443,13 @@ StScrollBar {
 .popup-menu-boxpointer,
 .candidate-popup-boxpointer {
 /*	-arrow-border-radius: 0px 4px 4px 0px;
-	-arrow-background-color: rgba(250,250,250,0.97);
+	-arrow-background-color: rgba(0,0,0,0.97);
 	-arrow-border-width: 0;
 	-arrow-base: 24px;
 	-arrow-rise: 0px;
 	box-shadow: 1px 3px 5px 2px rgba(0,0,0,0.25);
 	border-radius: 4px;*/
-	background-color: rgba(250,250,250,0.95);
+	background-color: rgba(0,0,0,0.95);
 	-arrow-background-color: transparent;
 	-arrow-border-width: 0px;
 	-arrow-border-color: transparent;
@@ -1305,7 +1305,7 @@ StScrollBar {
 
 .app-folder-popup {
 	-arrow-border-radius: 8px;
-	-arrow-background-color: rgba(250,250,250,0.73);
+	-arrow-background-color: rgba(0,0,0,0.73);
 	-arrow-base: 24px;
 	-arrow-rise: 0px; }
 
@@ -1945,7 +1945,7 @@ StScrollBar {
 	padding: 0px 0px 0px 12px; }
 
 #panel.lock-screen {
-	background-color: rgba(250,250,250,0.9); }
+	background-color: rgba(0,0,0,0.9); }
 
 .screen-shield-background {
 	background: gray;
