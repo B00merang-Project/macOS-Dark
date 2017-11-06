@@ -665,7 +665,7 @@ StScrollBar {
 }
 
 .system-status-icon {
-	icon-shadow: white 0 0 4px;
+	icon-shadow: none;
 }
 #calendarArea {
 	padding: 0.75em 1.0em;
