@@ -6,7 +6,7 @@
 @define-color selected_bg_color #066DC1;
 @define-color selected_bg_color2 #4a8cc1;
 @define-color selected_fg_color #ffffff;
-@define-color tooltip_bg_color #fff;
+@define-color tooltip_bg_color #ffffff;
 @define-color tooltip_fg_color #4c4c4c;
 @define-color unfocused_bg_color #545454;
 @define-color unfocused_fg_color #8c8c8c;
@@ -30,18 +30,18 @@
 @define-color theme_unfocused_fg_color @unfocused_fg_color;
 
 /* shadow effects */
-@define-color light_shadow #fff;
-@define-color dark_shadow #000;
+@define-color light_shadow #ffffff;
+@define-color dark_shadow #000000;
 
 /* misc colors used by gtk+ */
-@define-color info_fg_color rgb (58, 135, 173);
-@define-color info_bg_color rgb (217, 237, 247);
-@define-color warning_fg_color rgb (192, 152, 83);
-@define-color warning_bg_color rgb (252, 248, 227);
-@define-color question_fg_color rgb (214, 73, 55);
-@define-color question_bg_color rgb (252, 229, 213);
-@define-color error_fg_color rgb (185, 74, 72);
-@define-color error_bg_color rgb (242, 222, 222);
+@define-color info_fg_color rgb(58, 135, 173);
+@define-color info_bg_color rgb(217, 237, 247);
+@define-color warning_fg_color rgb(192, 152, 83);
+@define-color warning_bg_color rgb(252, 248, 227);
+@define-color question_fg_color rgb(214, 73, 55);
+@define-color question_bg_color rgb(252, 229, 213);
+@define-color error_fg_color rgb(185, 74, 72);
+@define-color error_bg_color rgb(242, 222, 222);
 @define-color link_color #fc6f5d;
 @define-color success_color #53a93f;
 @define-color warning_color #f57900;
