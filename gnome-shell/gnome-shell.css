@@ -53,6 +53,8 @@ StEntry {
 	color: black;
 	background-color: white;
 	box-shadow: none;
+	caret-color: black;
+	caret-size: 1px;
 	background-gradient-direction: none;
 	border-color: rgba(255,255,255,0.2);
 	selection-background-color:#3b82d6;
@@ -158,9 +160,9 @@ StScrollBar {
 		background-gradient-direction: none;
 		box-shadow: none;
 		border: 1px solid rgba(255,255,255,0.2);
-		color: white;
+		color: black;
 		font-size: 12pt;
-		caret-color: white;
+		caret-color: black;
     	caret-size: 1px;
 		border-radius: 4px;
 		border-radius: 6px;
