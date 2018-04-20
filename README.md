@@ -1,7 +1,7 @@
 # macOS High Sierra (dark)
 ### Theme reproducing the clean and bright look of Apple's OS (but in dark mode)
 
-![macOS-High-Sierra](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2016-12-21-09-36-50_1_orig.png)
+![macOS-High-Sierra](https://b00merang.weebly.com/uploads/1/6/8/1/16813022/macos-high-sierra-2_orig.png)
 
 **Maintainer :** [Elbullazul](https://github.com/Elbullazul)
 
