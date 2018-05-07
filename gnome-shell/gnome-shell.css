@@ -413,7 +413,7 @@ StScrollBar {
 	.popup-menu .popup-inactive-menu-item {
 		color: white; }
 		.popup-menu .popup-inactive-menu-item:insensitive {
-			color: rgba(0,0,0,0.2); }
+			color: rgba(180,180,180,0.5); }
 	.popup-menu.panel-menu {
 		-boxpointer-gap: 4px;
 		margin-bottom: 1.75em; }
@@ -785,7 +785,8 @@ StScrollBar {
 .calendar-nonwork-day {
 	color: #8c8c8c; }
 
-.calendar-today {
+.calendar-today,
+.calendar-day-base:selected {
 	background-image: none;
 	text-shadow:none;
 	font-weight: normal;
@@ -798,7 +799,7 @@ StScrollBar {
 	font-weight: normal; }
 
 .calendar-other-month-day {
-	color: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,0.35);
 	opacity: 0.5; }
 
 /* Message list */
@@ -1260,8 +1261,8 @@ StScrollBar {
 }
 /* Active App underline */
 .app-well-app-running-dot {
-	width: 6px;
-	height: 6px;
+	width: 4px;
+	height: 4px;
 	border-radius: 3px;
 	background-color: white;
 	margin-bottom: 0px;
@@ -2010,4 +2011,4 @@ StScrollBar {
 	background-color: #026ec4;}
 
 .popup-menu-item:insensitive {
-	color: #fff;}
+	color: #f1f1f1;}
