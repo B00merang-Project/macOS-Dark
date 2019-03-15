@@ -1,7 +1,7 @@
 # macOS High Sierra (dark)
 ### Theme reproducing the clean and bright look of Apple's OS (but in dark mode)
 
-![macOS-High-Sierra](https://b00merang.weebly.com/uploads/1/6/8/1/16813022/macos-high-sierra-dark-2_orig.png)
+![macOS-High-Sierra](https://github.com/B00merang-Project/gallery/raw/master/macOS%2010.14%20Mojave%20(8).png)
 
 **Maintainer :** [Elbullazul](https://github.com/Elbullazul)
 
@@ -9,24 +9,11 @@
 
 **License :** GPL v3
 
-**More info :** http://b00merang.weebly.com/macos-high-sierra.html
+**More info :** http://b00merang.weebly.com/macos-mojave.html
 
 ### Manual installation
 
 Extract the zip file to the themes directory i.e. `/home/USERNAME/.themes`
-
-To set the theme in Gnome, run the following commands in Terminal,
-
-```
-gsettings set org.gnome.desktop.interface gtk-theme "macOS High Sierra Dark"
-gsettings set org.gnome.desktop.wm.preferences theme "macOS High Sierra Dark"
-```
-
-To set the theme in Xfce, run the following commands in Terminal,
-
-```
-xfconf-query -c xsettings -p /Net/ThemeName -s "macOS High Sierra"
-```
 
 ### Requirements
 
