@@ -1,7 +1,7 @@
-# macOS High Sierra (dark)
+# macOS Mojave (dark)
 ### Theme reproducing the clean and bright look of Apple's OS (but in dark mode)
 
-![macOS-High-Sierra](https://github.com/B00merang-Project/gallery/raw/master/macOS%2010.14%20Mojave%20(8).png)
+![macOS-Mojave](https://github.com/B00merang-Project/gallery/raw/master/macOS%20Mojave%20Dark%20(4).png)
 
 **Maintainer :** [Elbullazul](https://github.com/Elbullazul)
 
