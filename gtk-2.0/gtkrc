@@ -14,9 +14,10 @@ gtk-color-scheme	= "tooltip_fg_color:#ffffff" # Tooltips.
 gtk-color-scheme	= "link_color:#0057d8" # Hyperlinks
 gtk-color-scheme	= "panel_bg:#3b3b3b" # Panel bg color
 gtk-color-scheme	= "fm_color:#ffffff" # Color used in Nautilus and Thunar.
-gtk-color-scheme	= "bg_color_dark:#3b3b3b"
+gtk-color-scheme	= "bg_color_dark:#353535"
 gtk-color-scheme	= "text_color_dark:#FFFFFF"
 gtk-color-scheme	= "shadow_color:#000000" # Xfce desktp icons shadow color
+
 gtk-icon-sizes          = "panel-applications-menu=24,24:panel-menu=24,24:panel=16,16:gtk-button=16,16"
 gtk-button-images	= 1					# Disables icons for buttons with text
 gtk-toolbar-style	= 0					# Disables text in toolbar
@@ -146,7 +147,7 @@ style "default"
 		menustyle           = 0                 # 0 = no vertical menu stripe, 1 = display vertical menu stripe
 		prelight_shade      = .9                # shade level for scrollbar`s slider, comboboxstyle(1), and prelight state with gradient_colors
 		progressbarstyle    = 0                 # 0 = nothing, 1 = stripes, 2 = lines
-		reliefstyle         = 3                 # 0 = flat, 1 = inset, 2 = shadow
+		reliefstyle         = 0                 # 0 = flat, 1 = inset, 2 = shadow
 		rgba                = FALSE             # FALSE = disabled, TRUE = enabled
 		roundness           = 4                 # 0 = squared, 1 = old default, more will increase roundness
 		scrollbarstyle      = 0                 # 0 = nothing, 1 = circles, 2 = handles, 3 = diagonal stripes, 4 = diagonal stripes and handles, 5 = horizontal stripes, 6 = horizontal stripes and handles
@@ -172,7 +173,7 @@ style "resize-grip"
 			overlay_border	= {0,0,0,0 }
 			overlay_stretch	= FALSE
 		}
-    }
+  }
 }
 
 style "paned" = "default"
@@ -323,7 +324,8 @@ style "menubar" = "menu"
 	xthickness	= 3
 	ythickness	= 2
 
-	bg[NORMAL]	= @bg_color
+	bg[NORMAL]	= @bg_color_dark
+	fg[NORMAL]  = @text_color_dark
 
 	engine "murrine"
 	{
@@ -338,12 +340,12 @@ style "menubar-menuitem"
 
 	bg[PRELIGHT]   = @selected_bg_color
 	bg[SELECTED]   = @selected_bg_color
-	fg[NORMAL]     = @base_color
-	fg[PRELIGHT]   = @base_color
-	fg[SELECTED]   = @base_color
-	text[NORMAL]   = @base_color
-	text[PRELIGHT] = @base_color
-	text[SELECTED] = @base_color
+	fg[NORMAL]     = @text_color_dark
+	fg[PRELIGHT]   = @selected_fg_color
+	fg[SELECTED]   = @selected_fg_color
+	text[NORMAL]   = @text_color_dark
+	text[PRELIGHT] = @selected_fg_color
+	text[SELECTED] = @selected_fg_color
 
 	engine "murrine"
     {
@@ -888,6 +890,8 @@ style "check"
 
 style "toolbar" = "default"
 {
+  bg[NORMAL] = @bg_color_dark
+
 	engine "murrine"
 	{
 		contrast = 0.2
@@ -932,7 +936,7 @@ style "xfce-header"
 	base[NORMAL]	= shade (1.18, @bg_color)
 	engine "murrine"
 	{
-		textstyle = 1
+		textstyle = 0
 		text_shade = 0.85
 	}
 }
@@ -965,7 +969,7 @@ style "xfwm-tabwin"
 		border_shades       = { 3.5, 3.5 }
 		reliefstyle         = 0
 		shadow_shades	    = { 1.3, 1.7 }
-		textstyle = 1
+		textstyle = 0
 		text_shade = 0.25
 	}
 }
@@ -1015,7 +1019,7 @@ style "xfsm-label"
 
 	engine "murrine"
 	{
-		textstyle = 1
+		textstyle = 0
 		text_shade = 0.85
 	}
 }
