@@ -471,7 +471,8 @@ StScrollBar {
 	margin: 32px;
 	min-width: 64px;
 	min-height: 64px;
-	background-color: rgba(0,0,0,0.6); }
+	background-color: rgba(0,0,0,0.6);
+	color: #fff; }
 	.osd-window .osd-monitor-label {
 		font-size: 3em; }
 	.osd-window .level {
