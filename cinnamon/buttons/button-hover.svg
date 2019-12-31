@@ -15,7 +15,7 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="button-hover.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -30,17 +30,17 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="15.328321"
-     inkscape:cx="-14.390216"
+     inkscape:cx="-26.133185"
      inkscape:cy="11.7026"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="659"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="0"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -142,6 +142,6 @@
        height="20"
        width="20"
        id="rect3003"
-       style="opacity:0.12000000000000000;fill:#323232;fill-opacity:1;stroke:none" />
+       style="opacity:0.12;fill:#ffffff;fill-opacity:1;stroke:none" />
   </g>
 </svg>
