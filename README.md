@@ -1,10 +1,10 @@
 [![built-with-azurra-framework](https://github.com/Elbullazul/Azurra_framework/raw/assets/azurra_framework_smaller.png)](https://github.com/Elbullazul/Azurra_framework)
 
-# macOS 10.15 'Catalina' dark
+# macOS 11 'Big Sur'
 
 Theme reproducing the clean and bright look of Apple's OS (but in dark mode)
 
-![macOS-dark](https://github.com/B00merang-Project/gallery/raw/master/macOS%2010.14%20Mojave%20Dark%20(3).png)
+![macOS-dark](https://cdn.pling.com/img/4/8/f/0/9b29927809dc3362a23c5a631dd5c423a24e.png)
 
 **Maintainer :** [Elbullazul](https://github.com/Elbullazul)
 
